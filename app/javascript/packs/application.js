@@ -8,8 +8,7 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-import "bootstrap"
-import "popper.js"
+import "@coreui/coreui"
 
 import "../stylesheets/application"
 
