@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^3.4.0",
+    "@coreui/icons": "^1.0.1",
     "@popperjs/core": "^2.6.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",

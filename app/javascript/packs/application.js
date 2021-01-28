@@ -12,6 +12,14 @@ import "@coreui/coreui"
 
 import "../stylesheets/application"
 
+// 
+// アイコンで使用するSVGファイルをインポートする
+// 使用する際のパス: `media/sprites/<filename>`
+// 
+import "@coreui/icons/sprites/brand.svg"
+import "@coreui/icons/sprites/flag.svg"
+import "@coreui/icons/sprites/free.svg"
+
 const images = require.context('../images/', true)
 const imagePath = (name) => images(name, true)
 
