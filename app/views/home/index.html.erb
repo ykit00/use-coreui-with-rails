@@ -2,10 +2,10 @@
   <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
     <div class="c-sidebar-brand d-lg-down-none">
       <svg class="c-sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#full"></use>
+        <use xlink:href="<%= asset_pack_path 'media/images/brand/coreui.svg' %>#full"></use>
       </svg>
       <svg class="c-sidebar-brand-minimized" width="46" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#signet"></use>
+        <use xlink:href="<%= asset_pack_path 'media/images/brand/coreui.svg' %>#signet"></use>
       </svg>
     </div>
     <ul class="c-sidebar-nav">
@@ -155,7 +155,7 @@
               <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-envelope-open"></use>
             </svg></a></li>
         <li class="c-header-nav-item dropdown"><a class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"></div>
+            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/6.jpg', class: 'c-avatar-img', alt: 'user@email.com' %></div>
           </a>
           <div class="dropdown-menu dropdown-menu-right pt-0">
             <div class="dropdown-header bg-light py-2"><strong>Account</strong></div><a class="dropdown-item" href="#">
@@ -660,7 +660,7 @@
                       <tbody>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/1.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-success"></span></div>
                           </td>
                           <td>
                             <div>Yiorgos Avraamu</div>
@@ -691,7 +691,7 @@
                         </tr>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/2.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-danger"></span></div>
                           </td>
                           <td>
                             <div>Avram Tarasios</div>
@@ -722,7 +722,7 @@
                         </tr>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"><span class="c-avatar-status bg-warning"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/3.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-warning"></span></div>
                           </td>
                           <td>
                             <div>Quintin Ed</div>
@@ -753,7 +753,7 @@
                         </tr>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="c-avatar-status bg-secondary"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/4.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-secondary"></span></div>
                           </td>
                           <td>
                             <div>Enéas Kwadwo</div>
@@ -784,7 +784,7 @@
                         </tr>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/5.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-success"></span></div>
                           </td>
                           <td>
                             <div>Agapetus Tadeáš</div>
@@ -815,7 +815,7 @@
                         </tr>
                         <tr>
                           <td class="text-center">
-                            <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
+                            <div class="c-avatar"><%= image_pack_tag 'media/images/avatars/6.jpg', class: 'c-avatar-img', alt: 'user@email.com' %><span class="c-avatar-status bg-danger"></span></div>
                           </td>
                           <td>
                             <div>Friderik Dávid</div>
